@@ -1,5 +1,4 @@
 import 'package:leetcode/leetcode.dart';
-import 'package:leetcode/tree/is_same_tree.dart';
 import 'package:test/test.dart';
 
 void main() {

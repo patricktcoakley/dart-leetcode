@@ -1,5 +1,4 @@
 import 'package:leetcode/leetcode.dart';
-import 'package:leetcode/tree/is_symmetric.dart';
 import 'package:test/test.dart';
 
 void main() {

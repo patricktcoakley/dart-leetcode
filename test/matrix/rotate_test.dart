@@ -1,6 +1,5 @@
-import 'package:leetcode/matrix/rotate.dart';
-import 'package:test/expect.dart';
-import 'package:test/scaffolding.dart';
+import 'package:leetcode/leetcode.dart';
+import 'package:test/test.dart';
 
 void main() {
   test('example 1', () {
