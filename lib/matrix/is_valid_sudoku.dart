@@ -2,7 +2,7 @@ import 'dart:collection';
 
 bool isValidSudoku(List<List<String>> board) {
   bool addIfValid(String input, HashSet<String> set) {
-    if (input != ".") {
+    if (input != '.') {
       if (set.contains(input)) {
         return false;
       }
