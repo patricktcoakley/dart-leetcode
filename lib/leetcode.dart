@@ -19,3 +19,4 @@ export 'tree/level_order.dart';
 export 'tree/max_depth.dart';
 export 'tree/tree_node.dart';
 export 'trie/trie.dart';
+export 'tree/is_valid_bst.dart';
