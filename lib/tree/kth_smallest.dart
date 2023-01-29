@@ -4,8 +4,8 @@ int kthSmallest(TreeNode? root, int k) {
   var s = <TreeNode?>[];
   TreeNode? curr = root;
 
-  while(true) {
-    while(curr != null) {
+  while (true) {
+    while (curr != null) {
       s.add(curr);
       curr = curr.left;
     }

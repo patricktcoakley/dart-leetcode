@@ -9,7 +9,7 @@ void main() {
     expect(isAnagram(s, t), equals(expected));
   });
 
-    test('example 2', () {
+  test('example 2', () {
     var s = 'rat';
     var t = 'car';
     var expected = false;

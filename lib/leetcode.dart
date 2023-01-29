@@ -13,6 +13,7 @@ export 'matrix/rotate.dart';
 export 'stack/is_valid.dart';
 export 'string/is_anagram.dart';
 export 'string/is_palindrome.dart';
+export 'string/length_of_longest_substring.dart';
 export 'string/letter_combinations.dart';
 export 'tree/invert_tree.dart';
 export 'tree/is_same_tree.dart';
