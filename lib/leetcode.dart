@@ -2,11 +2,13 @@ library leetcode;
 
 export 'array/contains_duplicate.dart';
 export 'array/max_profit.dart';
+export 'array/permute.dart';
 export 'array/remove_element.dart';
 export 'graph/num_islands.dart';
 export 'hash/lru_cache.dart';
 export 'list/add_two_numbers.dart';
 export 'list/list_node.dart';
+export 'list/merge_two_lists.dart';
 export 'list/reverse_list.dart';
 export 'matrix/is_valid_sudoku.dart';
 export 'matrix/rotate.dart';
