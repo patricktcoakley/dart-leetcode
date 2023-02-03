@@ -1,6 +1,7 @@
 library leetcode;
 
 export 'array/contains_duplicate.dart';
+export 'array/longest_common_prefix.dart';
 export 'array/max_profit.dart';
 export 'array/permute.dart';
 export 'array/remove_element.dart';
@@ -17,6 +18,7 @@ export 'string/is_anagram.dart';
 export 'string/is_palindrome.dart';
 export 'string/length_of_longest_substring.dart';
 export 'string/letter_combinations.dart';
+export 'tree/binary_paths.dart';
 export 'tree/invert_tree.dart';
 export 'tree/is_same_tree.dart';
 export 'tree/is_symmetric.dart';
