@@ -14,7 +14,7 @@ void main() {
     test('returns a ListNode when @list has multiple elements', () {
       var expected = ListNode(1, ListNode(2, ListNode(3, ListNode(4))));
       var result = ListNode.fromList([1, 2, 3, 4]);
-      expect(result, equals(expected));
+      expect(result, expected);
     });
   });
 }

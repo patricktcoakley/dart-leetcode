@@ -6,20 +6,20 @@ void main() {
     var input = '()';
     var expected = true;
     var result = isValid(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 
   test('example 2', () {
     var input = '()[]{}';
     var expected = true;
     var result = isValid(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 
   test('example 3', () {
     var input = '(]';
     var expected = false;
     var result = isValid(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 }

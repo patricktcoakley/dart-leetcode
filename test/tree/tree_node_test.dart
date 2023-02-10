@@ -13,7 +13,7 @@ void main() {
 
     test('returns a TreeNode when @nums has multiple elements', () {
       var expected = TreeNode(1, TreeNode(2), TreeNode(3));
-      expect(TreeNode.fromList([1, 2, 3]), equals(expected));
+      expect(TreeNode.fromList([1, 2, 3]), expected);
     });
 
     test('returns a TreeNode when @nums has multiple elements including nulls',
@@ -22,7 +22,7 @@ void main() {
       var expected =
           TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)));
       var result = TreeNode.fromList(input);
-      expect(result, equals(expected));
+      expect(result, expected);
     });
   });
 }

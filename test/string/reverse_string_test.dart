@@ -7,13 +7,13 @@ void main() {
     var expected = ['o', 'l', 'l', 'e', 'h'];
     var input = ['h', 'e', 'l', 'l', 'o'];
     reverseString(input);
-    expect(input, equals(expected));
+    expect(input, expected);
   });
 
   test('example 2', () {
     var expected = ['H', 'a', 'n', 'n', 'a', 'h'];
     var input = ['h', 'a', 'n', 'n', 'a', 'H'];
     reverseString(input);
-    expect(input, equals(expected));
+    expect(input, expected);
   });
 }

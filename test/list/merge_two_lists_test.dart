@@ -6,20 +6,20 @@ void main() {
     var list1 = ListNode.fromList([1, 2, 4]);
     var list2 = ListNode.fromList([1, 3, 4]);
     var expected = ListNode.fromList([1, 1, 2, 3, 4, 4]);
-    expect(mergeTwoLists(list1, list2), equals(expected));
+    expect(mergeTwoLists(list1, list2), expected);
   });
 
   test('example 2', () {
     var list1 = ListNode.fromList([]);
     var list2 = ListNode.fromList([]);
     var expected = ListNode.fromList([]);
-    expect(mergeTwoLists(list1, list2), equals(expected));
+    expect(mergeTwoLists(list1, list2), expected);
   });
 
   test('example 3', () {
     var list1 = ListNode.fromList([]);
     var list2 = ListNode.fromList([0]);
     var expected = ListNode.fromList([0]);
-    expect(mergeTwoLists(list1, list2), equals(expected));
+    expect(mergeTwoLists(list1, list2), expected);
   });
 }

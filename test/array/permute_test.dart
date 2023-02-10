@@ -11,7 +11,7 @@ void main() {
       [3, 1, 2],
       [3, 2, 1]
     ];
-    expect(permute([1, 2, 3]), equals(expected));
+    expect(permute([1, 2, 3]), expected);
   });
 
   test('example 2', () {
@@ -19,13 +19,13 @@ void main() {
       [0, 1],
       [1, 0]
     ];
-    expect(permute([0, 1]), equals(expected));
+    expect(permute([0, 1]), expected);
   });
 
   test('example 3', () {
     var expected = [
       [1]
     ];
-    expect(permute([1]), equals(expected));
+    expect(permute([1]), expected);
   });
 }

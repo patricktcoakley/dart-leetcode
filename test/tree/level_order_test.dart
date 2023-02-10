@@ -9,7 +9,7 @@ void main() {
       [9, 20],
       [15, 7]
     ];
-    expect(levelOrder(input), equals(expected));
+    expect(levelOrder(input), expected);
   });
 
   test('example 2', () {
@@ -17,12 +17,12 @@ void main() {
     var expected = [
       [1]
     ];
-    expect(levelOrder(input), equals(expected));
+    expect(levelOrder(input), expected);
   });
 
   test('example 3', () {
     var input = TreeNode.fromList([]);
     var expected = [];
-    expect(levelOrder(input), equals(expected));
+    expect(levelOrder(input), expected);
   });
 }

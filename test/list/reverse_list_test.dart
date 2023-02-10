@@ -6,14 +6,14 @@ void main() {
     var input = ListNode.fromList([1, 2, 3, 4, 5]);
     var expected = ListNode.fromList([5, 4, 3, 2, 1]);
     var result = reverseList(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 
   test('example 2', () {
     var input = ListNode.fromList([1, 2]);
     var expected = ListNode.fromList([2, 1]);
     var result = reverseList(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 
   test('example 3', () {

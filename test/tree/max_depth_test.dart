@@ -6,13 +6,13 @@ void main() {
     var input = TreeNode.fromList([3, 9, 20, null, null, 15, 7]);
     var expected = 3;
     var result = maxDepth(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 
   test('example 2', () {
     var input = TreeNode.fromList([1, null, 2]);
     var expected = 2;
     var result = maxDepth(input);
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 }

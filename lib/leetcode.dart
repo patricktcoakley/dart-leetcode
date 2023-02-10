@@ -21,6 +21,7 @@ export 'string/is_subsequence.dart';
 export 'string/length_of_longest_substring.dart';
 export 'string/letter_combinations.dart';
 export 'string/reverse_string.dart';
+export 'string/valid_palindrome.dart';
 export 'tree/binary_paths.dart';
 export 'tree/invert_tree.dart';
 export 'tree/is_same_tree.dart';

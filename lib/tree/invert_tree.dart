@@ -7,8 +7,9 @@ TreeNode? invertTree(TreeNode? root) {
 
   var left = invertTree(root.right);
   var right = invertTree(root.left);
-  root.left = left;
-  root.right = right;
+  root
+    ..left = left
+    ..right = right;
 
   return root;
 }

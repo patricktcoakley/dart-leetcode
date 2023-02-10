@@ -10,7 +10,7 @@ void main() {
     ];
     var target = 3;
     var expected = true;
-    expect(searchMatrix(matrix, target), equals(expected));
+    expect(searchMatrix(matrix, target), expected);
   });
 
   test('example 1', () {
@@ -21,6 +21,6 @@ void main() {
     ];
     var target = 13;
     var expected = false;
-    expect(searchMatrix(matrix, target), equals(expected));
+    expect(searchMatrix(matrix, target), expected);
   });
 }

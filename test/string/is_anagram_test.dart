@@ -6,13 +6,13 @@ void main() {
     var s = 'anagram';
     var t = 'nagaram';
     var expected = true;
-    expect(isAnagram(s, t), equals(expected));
+    expect(isAnagram(s, t), expected);
   });
 
   test('example 2', () {
     var s = 'rat';
     var t = 'car';
     var expected = false;
-    expect(isAnagram(s, t), equals(expected));
+    expect(isAnagram(s, t), expected);
   });
 }

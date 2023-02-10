@@ -16,7 +16,7 @@ void main() {
     ];
 
     rotate(matrix);
-    expect(matrix, equals(expected));
+    expect(matrix, expected);
   });
 
   test('example 2', () {
@@ -35,6 +35,6 @@ void main() {
     ];
 
     rotate(matrix);
-    expect(matrix, equals(expected));
+    expect(matrix, expected);
   });
 }

@@ -12,7 +12,7 @@ void main() {
     var expected = 1;
     var result = numIslands(input);
 
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 
   test('example 2', () {
@@ -25,6 +25,6 @@ void main() {
     var expected = 3;
     var result = numIslands(input);
 
-    expect(result, equals(expected));
+    expect(result, expected);
   });
 }
