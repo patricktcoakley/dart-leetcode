@@ -2,7 +2,9 @@ library leetcode;
 
 export 'array/contains_duplicate.dart';
 export 'array/longest_common_prefix.dart';
+export 'array/max_area.dart';
 export 'array/max_profit.dart';
+export 'array/max_sub_array.dart';
 export 'array/permute.dart';
 export 'array/remove_element.dart';
 export 'array/single_number.dart';
