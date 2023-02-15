@@ -4,11 +4,12 @@ import 'package:test/test.dart';
 void main() {
   group('#fromList', () {
     test('returns null when @nums is empty', () {
-      expect(TreeNode.fromList([]), equals(null));
+      expect(TreeNode.fromList([]), null);
     });
 
     test('returns a TreeNode when @nums has one element', () {
-      expect(TreeNode.fromList([1]), equals(TreeNode(1)));
+      var expected = TreeNode(1);
+      expect(TreeNode.fromList([1]), expected);
     });
 
     test('returns a TreeNode when @nums has multiple elements', () {

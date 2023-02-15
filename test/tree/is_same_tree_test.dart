@@ -5,18 +5,21 @@ void main() {
   test('example 1', () {
     var p = TreeNode.fromList([1, 2, 3]);
     var q = TreeNode.fromList([1, 2, 3]);
-    expect(isSameTree(p, q), equals(true));
+    var expected = true;
+    expect(isSameTree(p, q), expected);
   });
 
   test('example 2', () {
     var p = TreeNode.fromList([1, 2]);
     var q = TreeNode.fromList([1, null, 2]);
-    expect(isSameTree(p, q), equals(false));
+    var expected = false;
+    expect(isSameTree(p, q), expected);
   });
 
   test('example 3', () {
     var p = TreeNode.fromList([1, 2, 1]);
     var q = TreeNode.fromList([1, 1, 2]);
-    expect(isSameTree(p, q), equals(false));
+    var expected = false;
+    expect(isSameTree(p, q), expected);
   });
 }

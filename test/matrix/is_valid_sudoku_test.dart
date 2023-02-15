@@ -14,7 +14,8 @@ void main() {
       ['.', '.', '.', '4', '1', '9', '.', '.', '5'],
       ['.', '.', '.', '.', '8', '.', '.', '7', '9'],
     ];
-    expect(isValidSudoku(board), equals(true));
+    var expected = true;
+    expect(isValidSudoku(board), expected);
   });
 
   test('example 2', () {
@@ -29,6 +30,7 @@ void main() {
       ['.', '.', '.', '4', '1', '9', '.', '.', '5'],
       ['.', '.', '.', '.', '8', '.', '.', '7', '9']
     ];
-    expect(isValidSudoku(board), equals(false));
+    var expected = false;
+    expect(isValidSudoku(board), expected);
   });
 }

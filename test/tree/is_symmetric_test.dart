@@ -4,11 +4,13 @@ import 'package:test/test.dart';
 void main() {
   test('example 1', () {
     var root = TreeNode.fromList([1, 2, 2, 3, 4, 4, 3]);
-    expect(isSymmetric(root), equals(true));
+    var expected = true;
+    expect(isSymmetric(root), expected);
   });
 
   test('example 2', () {
     var root = TreeNode.fromList([1, 2, 2, null, 3, null, 3]);
-    expect(isSymmetric(root), equals(false));
+    var expected = false;
+    expect(isSymmetric(root), expected);
   });
 }

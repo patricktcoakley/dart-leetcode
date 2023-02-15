@@ -19,6 +19,6 @@ void main() {
   test('example 3', () {
     var input = ListNode.fromList([]);
     var result = reverseList(input);
-    expect(result, equals(null));
+    expect(result, null);
   });
 }

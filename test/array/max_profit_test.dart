@@ -3,10 +3,12 @@ import 'package:test/test.dart';
 
 void main() {
   test('example 1', () {
-    expect(maxProfit([7, 1, 5, 3, 6, 4]), equals(5));
+    var expected = 5;
+    expect(maxProfit([7, 1, 5, 3, 6, 4]), expected);
   });
 
   test('example 2', () {
-    expect(maxProfit([7, 6, 4, 3, 1]), equals(0));
+    var expected = 0;
+    expect(maxProfit([7, 6, 4, 3, 1]), expected);
   });
 }

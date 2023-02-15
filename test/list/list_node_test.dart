@@ -4,11 +4,12 @@ import 'package:test/test.dart';
 void main() {
   group('#fromList', () {
     test('returns null when @list is empty', () {
-      expect(ListNode.fromList([]), equals(null));
+      expect(ListNode.fromList([]), null);
     });
 
     test('returns a ListNode when @list has one element', () {
-      expect(ListNode.fromList([1]), equals(ListNode(1)));
+      var expected = ListNode(1);
+      expect(ListNode.fromList([1]), expected);
     });
 
     test('returns a ListNode when @list has multiple elements', () {
